@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/react-updated-portfolio/static/js/main.f2aec81e.js",
+    "static/media/weatherApp.png": "/react-updated-portfolio/static/media/weatherApp.64f7a0e19995f9dd0fc1.png",
+    "static/media/BeeAI.png": "/react-updated-portfolio/static/media/BeeAI.16f7459291bad617ae02.png",
+    "static/media/Unloc.png": "/react-updated-portfolio/static/media/Unloc.57f9838de1a78a1d156e.png",
+    "static/media/igor.jpg": "/react-updated-portfolio/static/media/igor.07daeafa3abcee1b0b1f.jpg",
+    "static/media/eccomerce.png": "/react-updated-portfolio/static/media/eccomerce.d2561e13c84f1b37dd07.png",
+    "static/media/ToDo.png": "/react-updated-portfolio/static/media/ToDo.04747dfe1a10d962a9e6.png",
+    "static/media/styledCom.svg": "/react-updated-portfolio/static/media/styledCom.3e3060666fd595f6033209a114f75204.svg",
+    "static/media/ts.svg": "/react-updated-portfolio/static/media/ts.c9b2ca7f5a6cbdea752fe99447d772a4.svg",
+    "index.html": "/react-updated-portfolio/index.html",
+    "static/media/tailwind.svg": "/react-updated-portfolio/static/media/tailwind.d4acc9ba3de10fadc812ada30444e3e8.svg",
+    "static/media/css.svg": "/react-updated-portfolio/static/media/css.b01116f36a2b48d36a5a0ec29d4fac32.svg",
+    "main.f2aec81e.js.map": "/react-updated-portfolio/static/js/main.f2aec81e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f2aec81e.js"
+  ]
+}
