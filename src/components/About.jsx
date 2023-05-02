@@ -70,7 +70,7 @@ export const About = () => {
                 highly passionate about programming and building websites. I
                 started my journey with front-end development last year where I
                 got to know its basic concepts including HTML5, CSS, and
-                Javascript as well as its framework React.
+                Javascript as well as its library React.
               </p>
               <p>
                 My goal is to find a job as a front-end developer since I

@@ -57,7 +57,7 @@ const SwipeLeft = styled.div`
 `;
 
 const Div = styled.div`
-  scroll-margin: 40px;
+  scroll-margin: 30px;
 
   @media screen and (min-width: 768px) {
     scroll-margin: -10px;

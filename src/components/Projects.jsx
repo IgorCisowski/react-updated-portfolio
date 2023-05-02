@@ -195,7 +195,7 @@ const TitleContent = styled.div`
 `;
 
 const Div = styled.div`
-  scroll-margin: 40px;
+  scroll-margin: 20px;
   @media screen and (min-width: 768px) {
     scroll-margin: -50px;
   }
