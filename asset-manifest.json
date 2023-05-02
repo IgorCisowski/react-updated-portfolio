@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/react-updated-portfolio/static/js/main.f2aec81e.js",
+    "main.js": "/react-updated-portfolio/static/js/main.23a73aa5.js",
     "static/media/weatherApp.png": "/react-updated-portfolio/static/media/weatherApp.64f7a0e19995f9dd0fc1.png",
     "static/media/BeeAI.png": "/react-updated-portfolio/static/media/BeeAI.16f7459291bad617ae02.png",
     "static/media/Unloc.png": "/react-updated-portfolio/static/media/Unloc.57f9838de1a78a1d156e.png",
@@ -12,9 +12,9 @@
     "index.html": "/react-updated-portfolio/index.html",
     "static/media/tailwind.svg": "/react-updated-portfolio/static/media/tailwind.d4acc9ba3de10fadc812ada30444e3e8.svg",
     "static/media/css.svg": "/react-updated-portfolio/static/media/css.b01116f36a2b48d36a5a0ec29d4fac32.svg",
-    "main.f2aec81e.js.map": "/react-updated-portfolio/static/js/main.f2aec81e.js.map"
+    "main.23a73aa5.js.map": "/react-updated-portfolio/static/js/main.23a73aa5.js.map"
   },
   "entrypoints": [
-    "static/js/main.f2aec81e.js"
+    "static/js/main.23a73aa5.js"
   ]
 }
