@@ -44,8 +44,10 @@ const Socials = styled.div`
 
 export const OtherContact = () => {
   return (
-    <StyledOtherContact data-aos="fade-up" data-aos-delay="100">
-      <p>Or reach out to me on</p>
+    <StyledOtherContact>
+      <p data-aos="fade-up" data-aos-delay="100">
+        Or reach out to me on
+      </p>
       <Socials>
         {socials.map(({ id, icon, href, delay }) => {
           return (
