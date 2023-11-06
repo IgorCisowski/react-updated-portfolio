@@ -31,9 +31,15 @@ const AboutME = styled.div`
   }
 `;
 
+const ResumeContainer = styled.div`
+  width: 100%;
+  border-bottom: 2px solid #791818b6;
+`;
+
 const Resume = styled.a`
   color: white;
   cursor: pointer;
+  width: max-content;
   font-size: 18px;
   letter-spacing: 0.05em;
   font-weight: bold;
@@ -42,7 +48,6 @@ const Resume = styled.a`
   gap: 8px;
   text-decoration: none;
   text-transform: uppercase;
-  border-bottom: 2px solid #791818b6;
   padding-bottom: 30px;
 `;
 
@@ -50,7 +55,7 @@ const Div = styled.div`
   scroll-margin: 40px;
 
   @media screen and (min-width: 768px) {
-    scroll-margin: 60px;
+    scroll-margin: 55px;
   }
 `;
 
@@ -66,24 +71,25 @@ export const About = () => {
           <div data-aos="fade-up" data-aos-delay="150">
             <AboutME>
               <p>
-                My name is Igor, I'm a second-year student of Computer Science,
-                highly passionate about programming and building websites. I
-                started my journey with front-end development last year where I
-                got to know its basic concepts including HTML5, CSS, and
-                Javascript as well as its library React.
+                My name is Igor, I'm highly passionate about programming and
+                creating interactive and responsive web applications. I started
+                my web development journey two years ago, focusing on developing
+                websites using JavaScript TypeSctipt, React, Next.js, HTML, CSS,
+                and Git.
               </p>
               <p>
-                My goal is to find a job as a front-end developer since I
-                believe it will take my coding skills to the next level and
-                allow me to grow and learn new things while working on new and
-                exciting projects
+                Currently, I'm looking for new opportunities as a front-end
+                developer. I'm a quick learner and am always eager to expand my
+                knowledge and skill set. My inbox is always open so feel free to
+                drop me a message I'm looking forward to working with you!
               </p>
             </AboutME>
-
-            <Resume href="Igor Cisowski - Resume.pdf" download>
-              my resume
-              <FontAwesomeIcon icon={faDownload} />
-            </Resume>
+            <ResumeContainer>
+              <Resume href="Igor Cisowski - Resume.pdf" download>
+                my resume
+                <FontAwesomeIcon icon={faDownload} />
+              </Resume>
+            </ResumeContainer>
           </div>
         </Container>
       </StyledSection>

@@ -7,6 +7,9 @@ import { faSquareJs } from "@fortawesome/free-brands-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ts from "../images/icons/ts.svg";
+import tail from "../images/icons/tailwind.svg";
+import next from "../images/icons/next.svg";
+import sc from "../images/icons/styledCom.svg";
 const SkillCards = styled.div`
   width: 100%;
   margin: 50px 0 20px;
@@ -39,13 +42,13 @@ const Card = styled.div`
   scroll-snap-align: start;
   user-select: none;
 
-  @media screen and (min-width: 728px) {
-    min-width: 48%;
+  @media screen and (min-width: 512px) {
+    min-width: 47%;
     margin-right: 5px;
   }
 
   @media screen and (min-width: 1024px) {
-    min-width: 32%;
+    min-width: 23.5%;
     margin-right: 0px;
   }
 `;
@@ -61,10 +64,11 @@ const CardLogo = styled.div`
   border-radius: 50%;
   width: 7vh;
   height: 7vh;
+  overflow: hidden;
 
   img {
     position: absolute;
-    width: 34px;
+    width: 80%;
   }
 `;
 
@@ -74,7 +78,7 @@ const H4 = styled.h4`
 `;
 
 const Paragraph = styled.div`
-  margin-top: 32px;
+  margin-top: 25px;
   width: 100%;
   max-width: 56px;
   min-height: 6px;
@@ -118,7 +122,7 @@ export const Skill = () => {
       onMouseUp={handleMouseUp}
       onMouseOver={handleMouseMove}
     >
-      {skills.map(({ icon, color, title, desc, iconn }) => {
+      {skills.map(({ icon, color, title, iconn }) => {
         return (
           <Card key={title}>
             <CardLogo>
@@ -126,7 +130,6 @@ export const Skill = () => {
               <img src={iconn} alt="" />
             </CardLogo>
             <H4>{title}</H4>
-            <p>{desc}</p>
             <Paragraph></Paragraph>
           </Card>
         );
@@ -140,36 +143,45 @@ const skills = [
     icon: faHtml5,
     color: "#e56027",
     title: "HTML5",
-    desc: "Good understanding of the hypertext markup language its semantic elements and page structure",
   },
   {
     icon: faCss3Alt,
     color: "#2760e5",
     title: "CSS",
-    desc: "Lots of practice with cascadian style sheets and layout techniques including flexbox and grid",
+  },
+  {
+    iconn: sc,
+    color: "#2760e5",
+    title: "Styled Components",
+  },
+  {
+    iconn: tail,
+    color: "#2760e5",
+    title: "Tailwind",
   },
   {
     icon: faSquareJs,
     color: "#f2cd37",
     title: "JavaScript",
-    desc: "Intermediate knowledge of JS and its features such as loops, functions, statements, DOM, array methods Etc.",
-  },
-  {
-    icon: faReact,
-    color: "#00d1f2",
-    title: "React JS",
-    desc: "Good understanding of React as well as its concepts JSX, components, props, React Router, fetch and hooks",
   },
   {
     iconn: ts,
     color: "#2D79C7",
     title: "TypeScript",
-    desc: "Basic knowledge of Typescript and proficiency in using it in projects and applications",
+  },
+  {
+    icon: faReact,
+    color: "#00d1f2",
+    title: "React JS",
+  },
+  {
+    iconn: next,
+    color: "#00d1f2",
+    title: "Next.js",
   },
   {
     icon: faGithub,
     color: "black",
     title: "Github",
-    desc: "Experienced with Git & GitHub, and its basic commands push, pull, clone, merge, semantic commits Etc.",
   },
 ];

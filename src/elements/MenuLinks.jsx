@@ -98,11 +98,3 @@ export const MenuLinks = ({ isOpen, handleExit }) => {
 };
 
 const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
-
-// const navLinks = [
-//   { link: "Home", set: -80 },
-//   { link: "About", set: -60 },
-//   { link: "Skills", set: -65 },
-//   { link: "Projects", set: 5 },
-//   { link: "Contact", set: 5 },
-// ];
